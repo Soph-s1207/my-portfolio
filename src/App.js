@@ -20,7 +20,10 @@ const pageVariants = {
 
 const App = () => {
   const location = useLocation();
-
+  if (window.location.pathname === '/my-portfolio') {
+    window.location.replace('/my-portfolio/');
+    return null;
+  }
   return (
     <div className={styles.container}>
       <ScrollToTop />
