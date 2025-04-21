@@ -1,0 +1,106 @@
+/* src/pages/About.module.css */
+
+.aboutWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    font-family: 'Georgia', serif;
+    color: #111;
+  }
+  
+  .heroSection {
+    padding: 4rem 2rem 2rem;
+  }
+  
+  .heading {
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0;
+    padding-left: 1.5rem;
+    border-left: 3px solid #e94f37;
+  }
+  
+  .profileSection {
+    position: relative;
+    background-image: url('/Users/sophiasaunders1207/Documents/GitHub/my-portfolio/public/assets/images/Group 16.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profileImageOverlay {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent);
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .profileTextContainer {
+    max-width: 60%;
+    margin-left: 5%;
+  }
+  
+  .name {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 2rem;
+    line-height: 1.4;
+    font-weight: 500;
+  }
+  
+  .bioSection {
+    padding: 2rem 3rem;
+    background-color: #f9f9f9;
+    text-align: left;
+  }
+  
+  .subheading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+  }
+  
+  .bio {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin-bottom: 3rem;
+  }
+  
+  .resumeSection {
+    padding: 2rem 3rem;
+    background: white;
+    text-align: left;
+  }
+  
+  .resumeIntro {
+    font-size: 1rem;
+    max-width: 700px;
+    margin-bottom: 1rem;
+  }
+  
+  .resumeLinks a {
+    display: inline-block;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    transition: opacity 0.3s;
+  }
+  
+  .resumeLinks a:hover {
+    opacity: 0.7;
+  }
+  

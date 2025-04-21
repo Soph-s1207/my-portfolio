@@ -1,0 +1,117 @@
+
+
+  .heroSection {
+    padding: 6rem 2rem 4rem;
+    text-align: left;
+    background-color: #ffffff;
+  }
+  
+  .heroHeading {
+    font-size: 8rem;
+    font-weight: 500;
+    font-family: "Georgia", serif;
+    margin: 0;
+    color: #111;
+  }
+  
+  .heroSubheading {
+    font-size: 8rem;
+    font-weight: 700;
+    font-family: "Georgia", serif;
+    margin: 0;
+    color: #111;
+  }
+  
+  .heroDescription {
+    max-width: 600px;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.8;
+  }
+  
+  .homeWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 4rem 2rem;
+    background: var(--bg-dark);
+    color: var(--text-primary);
+  }
+  
+  .projectBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 1.5rem;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    flex-wrap: wrap;
+  }
+  
+  .projectText {
+    flex: 1;
+    max-width: 600px;
+    color: var(--text-secondary);
+  }
+  
+  .projectText h2 {
+    font-size: 2.5rem;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+  }
+  
+  .projectText p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+  
+  .projectNumber {
+    font-size: 2rem;
+    color: var(--text-secondary);
+    opacity: 0.4;
+  }
+  
+  .viewLink {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .viewLink:hover {
+    color: #9cf;
+    border-color: #9cf;
+  }
+  
+  .projectImageWrapper {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .projectImageWrapper img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 900px) {
+    .projectBlock {
+      flex-direction: column;
+    }
+    .projectImageWrapper {
+      max-width: 100%;
+    }
+    .projectText {
+      max-width: 100%;
+    }
+  }

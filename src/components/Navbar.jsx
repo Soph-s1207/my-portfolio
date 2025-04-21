@@ -1,16 +1,51 @@
+// src/components/Navbar.jsx
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styles from './Navbar.module.css';
 
-const Navbar = () => (
-  <nav className={styles.navbar}>
-    <ul className={styles.navList}>
-      <li><Link to='/'>Home</Link></li>
-      <li><Link to='/about'>About</Link></li>
-      <li><Link to='/projects'>Projects</Link></li>
-      <li><Link to='/contact'>Contact</Link></li>
-    </ul>
-  </nav>
-);
+const Navbar = () => {
+  return (
+    <nav className={styles.navbar}>
+      <NavLink to="/" className={styles.brand}>
+        My Portfolio<span style={{ color: 'red' }}>.</span>
+      </NavLink>
+      <ul className={styles.navLinks}>
+        <li>
+          <NavLink
+            to="/"
+            className={({ isActive }) => isActive ? 'active' : ''}
+          >
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/about"
+            className={({ isActive }) => isActive ? 'active' : ''}
+          >
+            About
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/projects"
+            className={({ isActive }) => isActive ? 'active' : ''}
+          >
+            Projects
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) => isActive ? 'active' : ''}
+          >
+            Contact
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
+  );
+};
 
 export default Navbar;

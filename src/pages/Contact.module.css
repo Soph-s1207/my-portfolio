@@ -1,0 +1,118 @@
+/* src/pages/Contact.module.css */
+
+.contactWrapper {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Georgia', serif;
+    background-color: #fff;
+    min-height: 100vh;
+  }
+  
+  .contactHeader {
+    padding: 6rem 8vw 2rem;
+  }
+  
+  .heroSection {
+    padding: 4rem 2rem 2rem;
+  }
+  
+  .heading {
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0;
+    padding-left: 1.5rem;
+    border-left: 3px solid #e94f37;
+  }
+  
+  .formSection {
+    background-color: #f6f6f6;
+    padding: 4rem 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formSection h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  .contactForm {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background: white;
+    resize: vertical;
+    font-family: inherit;
+  }
+  
+  .contactForm textarea {
+    min-height: 120px;
+  }
+  
+  .submitButton {
+    background-color: #000;
+    color: white;
+    font-size: 1rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #333;
+  }
+
+  .socialLinks {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+  
+  .iconLink {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #111;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .iconLink:hover {
+    color: #0072b1; /* LinkedIn blue */
+  }
+  
+  .iconLink span {
+    font-weight: 500;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .contactHeader h1 {
+      font-size: 3rem;
+    }
+  
+    .formSection h2 {
+      font-size: 1.6rem;
+    }
+  
+    .contactForm {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,80 @@
+/* src/pages/Projects.module.css */
+
+.projectsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .heroSection {
+    padding: 4rem 2rem 2rem;
+  }
+  
+  .heading {
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0;
+    padding-left: 1.5rem;
+    border-left: 3px solid #e94f37;
+  }
+  
+  .projectCard {
+    background-color: #f8f8f8;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .projectCard:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projectHeader h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #111827;
+  }
+  
+  .projectDescription {
+    font-size: 1rem;
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .projectGallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .projectGallery img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .projectResponsibilities {
+    margin-top: 1rem;
+  }
+  
+  .projectResponsibilities h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #1f2937;
+  }
+  
+  .projectResponsibilities ul {
+    padding-left: 1.25rem;
+    list-style-type: disc;
+    color: #374151;
+    line-height: 1.6;
+  }
+  
