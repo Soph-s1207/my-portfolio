@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# 👩‍💻 Sophia Saunders Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! This project showcases my work in UX/UI design, digital product design, and front-end development. It includes detailed breakdowns of featured projects, an about section, and a fully functional contact form.
 
-## Available Scripts
+Live Site: [https://yourusername.github.io/](https://yourusername.github.io/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🧭 Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Folder Structure](#folder-structure)
+- [Pages Overview](#pages-overview)
+- [Contact](#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
+- Multi-page layout using **React Router**
+- Animated transitions using **Framer Motion**
+- Embedded YouTube demo for **AdvenTour** project
+- Form validation on the **Contact** page
+- Responsive design for desktop, tablet, and mobile
+- Clean UI with **CSS Modules**
+- Deployed via **GitHub Pages**
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Tech Stack
+- React.js (via Create React App)
+- React Router DOM
+- Framer Motion
+- CSS Modules
+- GitHub Pages (Deployment)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/my-portfolio.git
+cd my-portfolio
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install dependencies
+npm install
 
-### `npm run eject`
+# Start the dev server
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Build for production
+npm run build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Deploy to GitHub Pages
+npm run deploy
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📁 Folder Structure
+```
+├── public
+├── src
+│   ├── assets          # Images, video links
+│   ├── components      # Navbar, Footer, etc.
+│   ├── pages           # Home, About, Projects, Contact
+│   ├── styles          # Module CSS files
+│   └── App.jsx         # Main router + layout
+├── package.json
+└── README.md
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📄 Pages Overview
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🏠 Home
+- Hero header with intro text
+- Teaser previews of top 3 projects
 
-### Code Splitting
+### 👤 About
+- Biography, background, interests
+- Download links for resume
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 💼 Projects
+- 3 fully documented projects
+- Embedded YouTube demo (AdvenTour)
+- Scroll-to-section navigation
 
-### Analyzing the Bundle Size
+### 📬 Contact
+- Form validation (name, email, message)
+- Social links: LinkedIn + Email with icons
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📬 Contact
+If you'd like to collaborate, connect with me:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- 📧 [youremail@example.com](mailto:youremail@example.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/yourprofile)
 
-### Advanced Configuration
+Thank you for visiting my portfolio!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+© 2025 Sophia Saunders
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
