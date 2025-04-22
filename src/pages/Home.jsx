@@ -28,7 +28,7 @@ const Home = () => (
         <Link to="/projects#adventour" className={styles.viewLink}>view project</Link>
       </div>
       <div className={styles.projectImageWrapper}>
-        <img src='/assets/images/Scene 5 (1).jpg' alt='AdvenTour' />
+      <img src={`${process.env.PUBLIC_URL}/assets/images/Scene 5 (1).jpg`} alt="AdvenTour"/>
       </div>
     </motion.section>
 
@@ -48,7 +48,7 @@ const Home = () => (
         <Link to="/projects#renewd-beauty" className={styles.viewLink}>view project</Link>
         </div>
       <div className={styles.projectImageWrapper}>
-        <img src='/assets/images/Scene 11.jpg' alt="Renew'd Beauty" />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/Scene 11.jpg`} alt="Renew'd Beauty" />
       </div>
     </motion.section>
 
@@ -68,7 +68,7 @@ const Home = () => (
         <Link to="/projects#webflow-redesign" className={styles.viewLink}>view project</Link>
       </div>
       <div className={styles.projectImageWrapper}>
-        <img src='/assets/images/MacBook (3).jpg' alt='Webflow Redesign' />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/MacBook (3).jpg`} alt='Webflow Redesign' />
       </div>
     </motion.section>
   </div>

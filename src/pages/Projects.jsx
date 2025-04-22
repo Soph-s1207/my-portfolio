@@ -10,7 +10,7 @@ const projects = [
     title: 'AdvenTour',
     description:
       'AdvenTour is a smart itinerary planner designed to enhance the theme park experience by helping users create and manage their park schedules effortlessly. Whether users prefer a customized itinerary based on their favorite attractions or a recommended schedule, AdvenTour ensures a smooth and enjoyable visit. The app provides real-time notifications for ride times, wait times, and upcoming attractions on the itinerary, keeping users informed and maximizing their time at the park. With a user-friendly interface and responsive design, AdvenTour ensures seamless navigation across various mobile devices, making trip planning more efficient, stress-free, and fun. By integrating React Native and Supabase, AdvenTour offers a fast, reliable, and interactive experience, making it the ultimate companion for theme park visitors looking to make the most of their adventure.',
-    images: ['/assets/images/Scene 5 (1).jpg'],
+    images: [`${process.env.PUBLIC_URL}/assets/images/Scene 5 (1).jpg`],
     video: 'https://www.youtube.com/embed/U2pXYz1bzd8',
     responsibilities: [
       'UX/UI Designer: Designed and refined the user experience to ensure a seamless and intuitive interface for the AdvenTour application.',
@@ -25,7 +25,7 @@ const projects = [
     title: "Renew'd Beauty",
     description:
       "Renew’d Beauty is a beauty refill subscription app that personalizes skincare and cosmetic recommendations through an interactive quiz. Users receive tailored product suggestions and can subscribe to automatic refills, ensuring they never run out of their essentials. Our team developed three design mockups—Conservative, Moderate, and Wild—before selecting the Moderate design based on user feedback. Through market research, user testing, and iteration, we refined the app’s usability and visual appeal to create an intuitive and engaging experience.",
-    images: ['/assets/images/Scene 12 (2).jpg', '/assets/images/Scene 12.jpg', '/assets/images/Scene 12 (1).jpg'],
+    images: [`${process.env.PUBLIC_URL}/assets/images/Scene 12 (2).jpg`, `${process.env.PUBLIC_URL}/assets/images/Scene 12.jpg`, `${process.env.PUBLIC_URL}/assets/images/Scene 12 (1).jpg`],
     responsibilities: [
       'Branding & Visual Identity: Contributed to the brand logo, color scheme, typography, and app icon.',
       'Ensured a cohesive and visually appealing design aligned with our brand.',
@@ -39,7 +39,7 @@ const projects = [
     title: 'Webflow Website Redesign & Implementation',
     description:
       'This project focused on analyzing, redesigning, and implementing a website using Webflow, highlighting the role of no-code platforms in modern web development. I selected an existing website, evaluated its design and content management needs, and adapted it for a new business context using Figma and Webflow’s CMS. This project strengthened my skills in UX design, no-code development, and content structuring for dynamic websites.',
-    images: ['/assets/images/Section 1.jpg', '/assets/images/Section 2.png'],
+    images: [`${process.env.PUBLIC_URL}/assets/images/Section 1.jpg`, `${process.env.PUBLIC_URL}/assets/images/Section 2.png`],
     responsibilities: [
       'Redesigned all UI layouts to match UX goals.',
       'Reorganized Webflow CMS collections for optimal performance.',
